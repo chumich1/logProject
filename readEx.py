@@ -1,5 +1,16 @@
 import re
-p= re.compile(r'[<>]')
 f = open('log.txt', "r")
-print p.split(f.read())
+fe= re.compile(r"(?<=\[)(.*?)(?=\])")
+feels = fe.findall(f.read())
+d = re.compile(r"(?<=<)(.*?)(?=>)")
+date = d.findall(f.read())
+m= re.compile(r"(?<=\{)(.*?)(?=\})")
+miles = m.findall(f.read())
+
+
+
+
+
+print date, miles, feels
+
 f.close()

@@ -6,7 +6,7 @@ feel = raw_input("How did you feel? ")
 
 
 f = open('log.txt','a')
-f.write("<>"+date+"<>"+str(miles)+"<>"+feel+"<>")
+f.write("<"+date+">"+"{"+str(miles)+"}"+"["+feel+"]")
 
 f.close()
 
