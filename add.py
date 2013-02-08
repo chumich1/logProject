@@ -10,6 +10,6 @@ f.write("<"+date+">"+"{"+str(miles)+"}"+"["+feel+"]")
 
 f.close()
 
-execfile("readEx.py")
+
 
 

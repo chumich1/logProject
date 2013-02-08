@@ -7,6 +7,9 @@ m = re.findall(r'(?<=\{)(.*?)(?=\})', j)
 fe = re.findall(r'(?<=\[)(.*?)(?=\])', j)
 
 
-print d[1], m[1], fe[1]
-print "\n", int(m[0])+int(m[1])
+
+for i in m: print i
 f.close()
+
+
+
