@@ -1,16 +1,14 @@
 import re
+
 f = open('log.txt', "r")
-fe= re.compile(r"(?<=\[)(.*?)(?=\])")
-feels = fe.findall(f.read())
-d = re.compile(r"(?<=<)(.*?)(?=>)")
-date = d.findall(f.read())
-m= re.compile(r"(?<=\{)(.*?)(?=\})")
-miles = m.findall(f.read())
+j = f.read()
+d = re.findall(r'(?<=\<)(.*?)(?=\>)', j)
+m = re.findall(r'(?<=\{)(.*?)(?=\})', j)
+fe = re.findall(r'(?<=\[)(.*?)(?=\])', j)
 
-
-
-
-
-print date, miles, feels
+i = 0
+while i<len(d): 
+    print d[i], m[i], fe[i]
+    i =i+1
 
 f.close()
