@@ -1,0 +1,62 @@
+[33mcommit e936c99b44fe9da18b97d07dbfe1f776e0018f1d[m
+Merge: ae6c5cd c23616b
+Author: Andrew Chumich <achumich@achumich-AO722.(none)>
+Date:   Mon Feb 25 13:05:32 2013 -0700
+
+    YAY
+
+[33mcommit c23616b08d9743d131b8731981f15767392fdb07[m
+Author: Andrew Chumich <achumich@achumich-AO722.(none)>
+Date:   Thu Feb 14 18:51:04 2013 -0700
+
+    Gave option to not remove mid-execution
+
+[33mcommit e10e9cf916082dd59056997c4a356bfcf9c71135[m
+Author: Andrew Chumich <achumich@achumich-AO722.(none)>
+Date:   Fri Feb 8 13:49:03 2013 -0700
+
+    Added removal functionality
+
+[33mcommit ae6c5cd304116e5db8f62c11d20cddfbfd39ac9c[m
+Merge: 84e48bf 9c9e704
+Author: Andrew Chumich <achumich@achumich-AO722.(none)>
+Date:   Fri Feb 8 13:10:43 2013 -0700
+
+    RAWR
+
+[33mcommit 84e48bf782418fa886ceb18c7c2781701f680268[m
+Author: Andrew Chumich <achumich@achumich-AO722.(none)>
+Date:   Fri Feb 8 13:06:42 2013 -0700
+
+    General
+
+[33mcommit 9c9e7040cfdca30a45891e05dc774d36c195d5ea[m
+Author: unknown <andrewchumich@gmail.com>
+Date:   Thu Feb 7 20:23:54 2013 -0700
+
+    Added capability for multiple runs
+
+[33mcommit ae622e997eabf4fd308362c9de77d3071d253a8a[m
+Merge: 55a7bcf a81d391
+Author: unknown <andrewchumich@gmail.com>
+Date:   Thu Feb 7 19:40:33 2013 -0700
+
+    Basic merge
+
+[33mcommit a81d3912de8cad27dcc14214f6cb1ab128f32daa[m
+Author: Andrew Chumich <achumich@achumich-AO722.(none)>
+Date:   Wed Feb 6 13:30:21 2013 -0700
+
+    fixed the regex
+
+[33mcommit 55a7bcf996df61ddc56b857077c193054fdbbae4[m
+Author: unknown <andrewchumich@gmail.com>
+Date:   Wed Feb 6 11:45:19 2013 -0700
+
+    almost working
+
+[33mcommit 549bb4fbd3abf52a23f62d14a7379e185bd2b0c3[m
+Author: unknown <andrewchumich@gmail.com>
+Date:   Tue Feb 5 20:03:09 2013 -0700
+
+    First commit
