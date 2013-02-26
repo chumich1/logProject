@@ -1,42 +1,27 @@
 # menu-example-3.py
 
 from Tkinter import *
-
+from PIL import *
 
 
 root = Tk()
+root.title("Running Log 0.01")
+background_image= PhotoImage(file="background2.gif")
+background_label = Label(root, image=background_image)
+background_label.place(x=0, y=0, relwidth=1, relheight=1)
+button = Button(root, text="HEY")
+button.pack()
 
-top = Frame(width=500, height=500)
-viewFrame = Frame(width=600, height=600)
 def hello():
     print "hello!"
 
 def add():
-    # Menu variables:
-    year = tk.IntVar()
-    month = tk.IntVar()
-    day = tk.IntVar()
-    hour = tk.IntVar()
-    minute = tk.IntVar()
-    dur_hour = tk.IntVar() 
-    dur_minute = tk.IntVar()
-    duration = tk.StringVar()
-    start = tk.StringVar()
-    top = Frame(width=500, height=500)
-    top.pack()
-    addText = Text(top, width=30, height=15)
-    addText.pack()
-    
-    addText.destroy()
-    top.destroy()
+    execfile("addGui.py")
 
 def view():
-    viewFrame = Frame(width=600, height=600)
-    viewFrame.pack()
+    print "hey"
 
 menubar = Menu(root)
-
-
 filemenu = Menu(menubar, tearoff=0)
 filemenu.add_command(label="Open", command=hello)
 filemenu.add_separator()
@@ -50,4 +35,5 @@ menubar.add_command(label="View", command=view)
 
 # display the menu
 root.config(menu=menubar)
-mainloop()
+root.mainloop()
+ 
