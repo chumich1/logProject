@@ -9,6 +9,10 @@ root.title("Running Log 0.01")
 background_image= PhotoImage(file="background2.gif")
 background_label = Label(root, image=background_image)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
+w = background_image.width()
+h = background_image.height()
+root.geometry('%dx%d+0+0' % (w,h))
+
 button = Button(root, text="HEY")
 button.pack()
 
